@@ -1,16 +1,15 @@
 // main component of your app
 import { Component } from 'react';
-import { Home } from './Home';
-import Gallery from './Gallery';
-import { About } from './About';
+
+import { Card } from './Components/Card/Card';
+import { Home } from './Components/Home/Home';
 
 export class App extends Component {
   render() {
     return (
       <div>
         <Home />
-        <Gallery />
-        <About />
+        <Card />
       </div>
     );
   }
